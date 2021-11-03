@@ -1,0 +1,84 @@
+/*
+*	Rafael Amauri Diniz Augusto
+*	651047
+*/
+
+1------ 
+
+a)
+
+NÃ£o, pois as threads usadas para rodar um programa nao sao pre-definidas. O SO que as escolhe na hora de rodar o codigo, por isso elas sao 
+sempre "aleatorias"
+
+b)
+CPU: Intel Core i5 7200U
+Numero de Cores(nucleos fisicos): 2
+Numero de Threads: 4
+
+O numero de threads sempre sera o dobro do numero de cores em CPUs que suportem HyperThreading
+
+2-----
+
+O modelo fork-join se refere ao codigo ser capaz de usar multi-threading(fork) para paralelizar contas mais rapidas, e depois 
+juntar(join) o resultado. A partir do momento que eh juntando, a execucao do codigo volta a ser sequencial.
+
+
+3----
+
+a) 
+Faltaram valores na segunda execucao pois a variavel < i >, so conseguiu ser acessada por uma thread, e as demais nao receberam 
+seu endereco de memoria para realizar as contas.
+
+b)
+Dentro do loop for, todas as threads (no caso do meu computador, 4) recebem o mesmo i e conseguem realizar as contas nele em 
+paralelo(como se cada uma tivesse recebido um < i > proprio). Quanto < i > foi declarado fora do loop for, apenas a primeira 
+thread conseguiu utilizar dele para fazer as contas, e as demais nao receberam o endereco de < i >
+
+4-------
+
+a)
+Como so temos 4 threads e 5 iteracoes do for para realizar, uma iteracao tera que ser atribuida a mais para uma thread. 
+
+b)
+A thread que recebeu a iteracao a segunda iteracao a mais foi a thread 2
+
+c)
+Para alocar as iteracoes do for, o programa distribui as iteracoes em uma maneira similar a usar o operador modulo (%), como em uma fila circular. 
+A thread 0 recebe a primeira conta, a thread 2 recebe a segunda conta, e assim por diante, ate que, ao chegar na iteracao 4, onde volta pra thread 0
+
+d)
+Usando valores escolhidos por mim, o numero maximo que eu consegui criar em meu processador foi de 10127 threads, mas usando o comando 
+cat /proc/sys/kernel/threads-max (Ubuntu), me foi retornado o numero teorico maximo de 61965 threads.
+ 
+Na realidade, podem ser criadas um numero infinito de threads, mas isso fara com que o computador fique mais lento. 
+Devemos lembrar que eh trabalho do SO alocar os recursos computacionais, e eles sao limitados. Ter um numero muito alto de threads e 
+fazer com que o uso de CPU fique constantemente em 100% faz com que o computador fique extremamente lento, pois tem que dividir os 
+recursos computacionais entre o nosso programa com infinitas threads e outras aplicacoes, como a GUI do sistema e outros aplicativos 
+que rodam em background.
+
+
+---------------------Meu computador----------------
+
+Ubuntu 64 bits
+
+Intel Core i5 7200U @ 2.5 GHz
+Clock Rate	2500 - 3100 MHz
+Level 1 Cache	128 KB
+Level 2 Cache	512 KB
+Level 3 Cache	3 MB
+Number of Cores / Threads	2 / 4
+Max. Power Consumption (TDP = Thermal Design Power)	15 Watt
+Manufacturing Technology	14 nm
+Max. Temperature	100 Â°C
+Socket	BGA1356
+Features	Dual-Channel DDR4 Memory Controller, HyperThreading, AVX, AVX2, Quick Sync, Virtualization, AES-NI
+64 Bit	64 Bit support
+Announcement Date	08/30/2016 = 1127 days old
+
+
+GPU1	Intel HD Graphics 620 (300 - 1000 MHz)
+GPU2	Nvidia GeForce 940MX (2GB VRAM)
+
+
+RAM	8GB DDR4
+

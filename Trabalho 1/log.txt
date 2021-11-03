@@ -1,0 +1,216 @@
+Precisao escolhida: 0.000000001
+
+Comecando a rodar o calculo de pi 15 vezes...
+-------------------
+|Execucao numero 1|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.516655
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.945153
+
+O speedup da 1 execucao foi 3.720724
+-------------------
+|Execucao numero 2|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.517971
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.941178
+
+O speedup da 2 execucao foi 3.737837
+-------------------
+|Execucao numero 3|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.509921
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.938446
+
+O speedup da 3 execucao foi 3.740143
+-------------------
+|Execucao numero 4|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.509371
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.941962
+
+O speedup da 4 execucao foi 3.725595
+-------------------
+|Execucao numero 5|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.508843
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.941554
+
+O speedup da 5 execucao foi 3.726651
+-------------------
+|Execucao numero 6|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.509291
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.937200
+
+O speedup da 6 execucao foi 3.744442
+-------------------
+|Execucao numero 7|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.509530
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.940218
+
+O speedup da 7 execucao foi 3.732678
+-------------------
+|Execucao numero 8|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.508973
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.940572
+
+O speedup da 8 execucao foi 3.730679
+-------------------
+|Execucao numero 9|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.509534
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.940937
+
+O speedup da 9 execucao foi 3.729830
+-------------------
+|Execucao numero 10|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.509735
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.941298
+
+O speedup da 10 execucao foi 3.728614
+-------------------
+|Execucao numero 11|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.510304
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.945641
+
+O speedup da 11 execucao foi 3.712089
+-------------------
+|Execucao numero 12|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.509032
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.943704
+
+O speedup da 12 execucao foi 3.718362
+-------------------
+|Execucao numero 13|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.510270
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.938863
+
+O speedup da 13 execucao foi 3.738852
+-------------------
+|Execucao numero 14|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.510072
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.947860
+
+O speedup da 14 execucao foi 3.703155
+-------------------
+|Execucao numero 15|
+-------------------
+
+Calculando sequencial...
+------
+Tempo sequencial = 3.512234
+
+------
+Calculando paralelo...
+------
+Tempo paralelo = 0.940973
+
+O speedup da 15 execucao foi 3.732555
+
+
+O speedup medio entre 15 iteracoes foi de 3.728147
