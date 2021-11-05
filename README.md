@@ -1,4 +1,4 @@
-## Seminarios 2
+## Seminários 2
 
 Meus arquivos para a matéria de Seminários 2 da PUC Minas com o professor Saulo.
 
